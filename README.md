@@ -43,10 +43,6 @@ This system:
 
 ![Gradio UI](screenshots/gradio_demo.png)
 
-### Example Answer with Retrieved Context
-
-![Answer](screenshots/answer.png)
-
 ---
 
 ## 🧠 Key Learnings
@@ -56,6 +52,18 @@ This system:
 * Trade-offs between NumPy and FAISS retrieval
 * Importance of grounding LLM responses using retrieved context
 * Prompt design to reduce hallucination and enforce citation
+
+---
+
+## 🧩 How It Works
+
+1. Documents are collected from official SPS PDFs
+2. Text is extracted and cleaned to remove formatting noise
+3. Documents are split into smaller chunks using different strategies
+4. Each chunk is converted into vector embeddings using multiple models
+5. A user query is embedded and matched against stored chunks
+6. Top relevant chunks are retrieved using similarity search (NumPy / FAISS)
+7. Retrieved context is passed to an LLM to generate a grounded answer with citations
 
 ---
 
