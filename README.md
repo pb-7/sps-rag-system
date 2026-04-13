@@ -83,7 +83,7 @@ This system:
 
 ```
 sps-rag-system/
-├── RAG-program-fit.ipynb
+├── sps_rag_system.ipynb
 ├── README.md
 ├── .gitignore
 ├── screenshots/
