@@ -1,6 +1,3 @@
-anaconda_projects/
-*.db
-
 # Python
 __pycache__/
 *.pyc
@@ -15,7 +12,9 @@ __pycache__/
 .venv/
 env/
 
-# Data files (optional if large later)
+# Data files / local artifacts
 *.pdf
 *.jsonl
 *.faiss
+*.db
+anaconda_projects/
