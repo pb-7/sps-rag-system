@@ -41,7 +41,7 @@ This system:
 
 ### Query Interface
 
-![Gradio UI](screenshots/gradio_ui.png)
+![Gradio UI](screenshots/gradio_demo.png)
 
 ### Example Answer with Retrieved Context
 
